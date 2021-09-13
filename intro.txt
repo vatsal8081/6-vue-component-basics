@@ -1,0 +1,17 @@
+1) components are very useful for some specific usecases where we have some block of code which we want
+to use multiple times in project it incress reusablity
+
+2) we can create seprate component for a codes which work sapratly and can use it in many places
+
+3) components aslo very usefull to splliting your big app in small and reusable chunks
+
+4) component is just like custom html element which has it's own feactures and funcanalitys 
+
+5) you should try to name component in 2 or multiple words with - in between and not use built in tags names 
+   because all built in html tags are single word so by this we will not clash with any built in ones.
+
+6) a vue component is just another app which belongs to some app so we can use all things we do in 
+vue.createApp() conf
+
+7) components allow to encapsulate peace of code with html, data and other confs
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <ul>
+            <!-- 2 -->
+            <!-- hear we can reuse component as many time as we want  inside app where we register it-->
+            <!-- just keep in mind every created component is just like instance of class so it will
+            have different values for different data and work individually-->
+            <!-- you can tell it by clicking on show more and it will only true isShowMore of that
+            component only and only show more details about that component other will stay false-->
+            <single-friend></single-friend>
+            <single-friend></single-friend>
+            <single-friend></single-friend>
+
+            <!-- 3 -->
+            <!-- when you design component keep in mind that where you add component that place
+            will replace by the html provided in component so design it by keep in mind that-->
+            <!-- like hear we use ul in main app and provide li in component to create separate
+            list items inside ul  -->
+        </ul>
+
+        <!-- 4 as you can see this way if creating component will be vary difficult and 
+        also provide html in string and creating components in one file not a good idea 
+        so we will use other way for it in next module-->
+    </div>
+
+</body>
+
+
+<script src="https://unpkg.com/vue@next"></script>
+<script src="./index.js"></script>
+
+</html>
