@@ -15,3 +15,8 @@ vue.createApp() conf
 
 7) components allow to encapsulate peace of code with html, data and other confs
 
+8) everytime you use any component vue will create saprate instance of that component just we create instance of class
+so like in class every object can hold saprate value for data and other things in components also every instance of component will
+hold diffrent value for all data and other propertyes so when we change any property of spacific instance of component it will affect to
+that component only.
+
